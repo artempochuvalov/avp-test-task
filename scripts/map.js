@@ -14,8 +14,8 @@ async function init() {
             layout: ymaps.templateLayoutFactory.createClass(`
                 <div class="legend">
                     <h2 class="legend__title">Локомотив</h2>
-                    <p class="legend__descr">Тип: <span>${LocoNumber}</span></p>
                     <p class="legend__descr">Тип: <span>${LocoType}</span></p>
+                    <p class="legend__descr">Номер: <span>${LocoNumber}</span></p>
                 </div>
             `),
             selectOnClick: false,
