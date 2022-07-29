@@ -25,7 +25,7 @@ async function init() {
     });
 
     const placeMarks = points.map((point) => new ymaps.Placemark(point.coords, {
-        balloonContent: `Тепмпература: ${point.temperature}`,
+        balloonContent: `Температура: ${point.temperature}`,
     }, {
         visible: false,
         preset: 'islands#glyphCircleIcon',
