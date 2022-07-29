@@ -1,12 +1,12 @@
 async function getLocationData() {
-    const response = await fetch('../json/location.json');
+    const response = await fetch('./json/location.json');
     const json = await response.json();
     return json;
 }
 
 
 async function getTemperaturesData() {
-    const response = await fetch('../json/temperatures.json');
+    const response = await fetch('./json/temperatures.json');
     const json = await response.json();
     return json;
 }
