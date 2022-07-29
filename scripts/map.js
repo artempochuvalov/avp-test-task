@@ -20,7 +20,6 @@ async function init() {
             `),
             selectOnClick: false,
             maxWidth: 300,
-            maxHeight: 100,
         }
     });
 
